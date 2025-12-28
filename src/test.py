@@ -2,6 +2,9 @@ import asyncio
 from picoagents import Agent
 from picoagents.llm import OpenAIChatCompletionClient
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 client = OpenAIChatCompletionClient(
   model="gpt-4.1-mini",
