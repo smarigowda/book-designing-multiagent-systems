@@ -51,3 +51,13 @@ Error is now gone.
 (book-designing-multiagent-systems) sma54@UKYXG4XTV7RY book-designing-multiagent-systems % python src/test.py
 (book-designing-multiagent-systems) sma54@UKYXG4XTV7RY book-designing-multiagent-systems %
 ```
+
+I then installed `python-dotenv`
+
+```
+(book-designing-multiagent-systems) sma54@UKYXG4XTV7RY book-designing-multiagent-systems % uv pip install python-dotenv
+Resolved 1 package in 4.72s
+Prepared 1 package in 399ms
+Installed 1 package in 9ms
+ + python-dotenv==1.2.1
+ ```
