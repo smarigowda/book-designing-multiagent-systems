@@ -44,3 +44,10 @@ Installed 2 packages in 7ms
  + docstring-parser==0.17.0
 (book-designing-multiagent-systems) sma54@UKYXG4XTV7RY book-designing-multiagent-systems %
 ```
+
+Error is now gone.
+
+```
+(book-designing-multiagent-systems) sma54@UKYXG4XTV7RY book-designing-multiagent-systems % python src/test.py
+(book-designing-multiagent-systems) sma54@UKYXG4XTV7RY book-designing-multiagent-systems %
+```
