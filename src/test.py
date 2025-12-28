@@ -21,8 +21,14 @@ poet = Agent(
 # Test the poet
 async def test_poet():
   response = await poet.run("Write a hiaku about blossoms in spring")
-  print(f"Poet says: {response}")
+  # print(f"Poet says: {response}")
+  # print(dir(response))
+  # print(response.messages)
+  assistant_msg = response.messages[-1]
+  print("Poet says:")
+  print(assistant_msg.content)
 
 asyncio.run(test_poet())
+
 
 
