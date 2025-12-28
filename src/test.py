@@ -8,3 +8,11 @@ client = OpenAIChatCompletionClient(
   api_key=os.getenv("OPENAI_API_KEY")
 )
 
+poet = Agent(
+  name="poet",
+  description="Haiku poet.",
+  instructions="You are a haiku poet.",
+  model_client=client
+)
+
+
