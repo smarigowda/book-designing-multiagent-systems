@@ -1,6 +1,6 @@
 # Getting A Simple Program running from Scratch
 
-When I try to run the code `python src/test.py` with just 2 lines of code I saw the following error.
+When I try to run the code `python src/test.py` with just 2 lines of code I saw the error `ModuleNotFoundError: No module named 'anthropic'` full error is given below.
 
 ```
 (book-designing-multiagent-systems) sma54@UKYXG4XTV7RY book-designing-multiagent-systems % python src/test.py
