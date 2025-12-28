@@ -15,4 +15,11 @@ poet = Agent(
   model_client=client
 )
 
+# Test the poet
+async def test_poet():
+  response = await poet.run("Write a hiaku about blossoms in spring")
+  print(f"Poet says: {response}")
+
+asyncio.run(test_poet())
+
 
