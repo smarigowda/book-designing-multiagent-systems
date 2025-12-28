@@ -1,8 +1,6 @@
 # Getting A Simple Program running from Scratch
 
-### After this commit `fbb3cce0573e48e0eca494972d0e9d4be36c72d8`
-
-When I try to run the code `python src/test.py` I saw the following error.
+When I try to run the code `python src/test.py` with just 2 lines of code I saw the following error.
 
 ```
 (book-designing-multiagent-systems) sma54@UKYXG4XTV7RY book-designing-multiagent-systems % python src/test.py
