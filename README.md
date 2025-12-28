@@ -61,3 +61,13 @@ Prepared 1 package in 399ms
 Installed 1 package in 9ms
  + python-dotenv==1.2.1
  ```
+
+After adding the test code, the output is below.
+
+```
+(book-designing-multiagent-systems) sma54@UKYXG4XTV7RY book-designing-multiagent-systems % python src/test.py
+Poet says: [poet] 08:19:43 | duration: 1.5s, tokens: in:26, out:23 | finish: stop
+(book-designing-multiagent-systems) sma54@UKYXG4XTV7RY book-designing-multiagent-systems %
+```
+
+I do not see the Poet response in the output
