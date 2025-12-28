@@ -31,3 +31,16 @@ Traceback (most recent call last):
 ImportError: Anthropic library not installed. Please install with: pip install anthropic>=0.73.0
 (book-designing-multiagent-systems) sma54@UKYXG4XTV7RY book-designing-multiagent-systems %
 ```
+I installed the following library.
+
+`uv pip install "anthropic>=0.73.0"`
+
+```
+(book-designing-multiagent-systems) sma54@UKYXG4XTV7RY book-designing-multiagent-systems % uv pip install "anthropic>=0.73.0"
+Resolved 16 packages in 689ms
+Prepared 1 package in 553ms
+Installed 2 packages in 7ms
+ + anthropic==0.75.0
+ + docstring-parser==0.17.0
+(book-designing-multiagent-systems) sma54@UKYXG4XTV7RY book-designing-multiagent-systems %
+```
